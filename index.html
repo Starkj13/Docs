@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Star_kj</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: black;
+        }
+        h1,h2,p{
+          color: white;
+        }
+
+        .center{
+          text-align: center;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        header img {
+            position: absolute;
+            left: 20px;
+        }
+
+        nav {
+            background-color: #444;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+
+        nav a:hover {
+            background-color: white;
+            color: black;
+        }
+
+        .container {
+            max-width: 960px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        main {
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .column {
+            flex: 1;
+            padding: 10px;
+            text-align: center;
+        }
+
+        .column img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .projects {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap; /* Allow projects to wrap to the next row if needed */
+        }
+
+        .project {
+            flex: 1;
+            margin: 10px;
+            border: 1px solid #333;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="your-image.jpg" alt="Your Image">
+        <h1>Star_kj</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="https://github.com/Starkj13">Github</a>
+        <a href="#project">Project</a>
+    </nav>
+
+    <div class="container">
+      <h1 class="center">Skills</h1>
+        <main>
+            <div class="column">
+                <img src="image1.jpg" alt="Image 1">
+                <p>DD</p>
+            </div>
+            <div class="column">
+                <img src="image2.jpg" alt="Image 2">
+                <p>GG</p>
+            </div>
+        </main>
+        <section class="about">
+          <h2></h2>
+          <p></p>
+      </section>
+
+      <h1 class="center">Projects</h1>
+        <div class="projects">
+            <div class="project" id="project">
+                <img src="project1.jpg" alt="Project 1">
+                <p>Youtube2Mp3</p>
+            </div>
+            <div class="project">
+                <img src="project2.jpg" alt="Project 2">
+                <p>Homelab</p>
+            </div>
+            <div class="project">
+                <img src="project3.jpg" alt="Project 3">
+                <p>Chocolatey</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+      <p>&copy; 2023 Star_kj. All rights reserved.</p>
+  </footer>
+</body>
+</html>
